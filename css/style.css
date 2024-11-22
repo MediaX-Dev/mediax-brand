@@ -1,0 +1,550 @@
+/* Google Font Start ================= */
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('../fonts/fonts.css');
+
+
+/* ================= Google Font Ends */
+
+/* Base Start ================= */
+
+:root {
+    --th-color-1: #e12726;
+    --th-color-2: #000000;
+    --th-color-3: #ffffff;
+    --th-color-4: #434343;
+    --th-color-black: #090909;
+    --th-color-Gray: #2f2f2f;
+    --font-raleway: "Raleway", sans-serif;
+    --font-helvetica: "Helvetica Neue", sans-serif;
+    --th-h1-fs: clamp(2rem, 5vw, 6rem);
+    --th-h2-fs: clamp(1.2rem, 3vw, 3.2rem);
+    --th-h3-fs: clamp(1.2rem, 2.5vw, 2.4rem);
+    --th-h4-fs: clamp(1rem, 2vw, 1.6rem);
+    --th-p-fs: clamp(0.8rem, 1.5vw, 1rem);
+    --th-link-fs: clamp(.8rem, 1.5vw, .9rem);
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+
+h1 {
+    font-size: var(--th-h1-fs);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: var(--th-h2-fs);
+    font-weight: 700;
+}
+
+h3 {
+    font-size: var(--th-h3-fs);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: var(--th-h4-fs);
+    font-weight: 500;
+}
+
+h5 {
+    font-size: var(--th-p-fs);
+    font-weight: 600;
+}
+
+h4 .red {
+    color: var(--th-color-1);
+}
+
+.red {
+    color: var(--th-color-1);
+}
+
+p {
+    font-size: var(--th-p-fs);
+    font-family: var(--font-raleway);
+    font-weight: 400;
+}
+
+.black {
+    font-weight: 600;
+}
+
+.th-btn {
+    color: var(--th-color-3);
+    background-color: var(--th-color-1);
+    font-family: var(--font-helvetica);
+    font-size: var(--th-p-fs);
+    font-weight: 500;
+    padding: 15px 50px;
+    border-radius: 19px;
+    display: inline-block;
+    opacity: .9;
+    transition: .5s;
+}
+
+.th-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+/* ================= Base Ends */
+
+/* Hero Start ================= */
+.hero {
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-family: var(--font-helvetica);
+    color: var(--th-color-4);
+    text-align: center;
+}
+
+.hero p {
+    font-family: var(--font-helvetica);
+    font-weight: 500;
+    line-height: 39.36px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.hero .btn-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.hero .hero-img .col-md-3:nth-child(2),
+.hero .hero-img .col-md-3:nth-child(3) {
+    transform: translateY(40px);
+}
+
+/* ================= Hero Ends */
+
+
+/* Why MediaX Start ================= */
+.why-mediax {
+    padding: 80px 0;
+}
+
+.why-mediax .sec-heading {
+    text-align: center;
+}
+
+.why-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 15rem;
+    gap: 1rem;
+}
+
+.why-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.why-icon {
+    max-width: 50px;
+}
+
+.why-icon img {
+    width: 100%;
+}
+
+.why-box {
+    border: 1px solid #B1B1B1;
+    padding: 20px;
+}
+
+.why-box h5 {
+    margin-bottom: 5px;
+}
+
+.why-box p {
+    margin: 0;
+}
+
+/* ================= Why MediaX Ends */
+
+/* Choose Start ================= */
+.choose {
+    padding: 80px 0;
+    background: url(../image/choose.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.choose-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-auto-rows: 400px;
+    gap: 1rem;
+    color: var(--th-color-3);
+}
+
+.choose-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.choose-right {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: end;
+}
+
+/* ================= Choose Ends */
+
+
+/* Explore Our Packages Start ================= */
+.explore-our-packages {
+    padding: 80px 0;
+}
+
+.explore-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    padding: 20px;
+    border: 1px solid #494949;
+}
+
+.explore-box.active {
+    background-color: var(--th-color-2);
+    color: var(--th-color-3);
+}
+
+.explore-text {
+    text-align: center;
+}
+
+.explore-text h6 {
+    font-family: var(--font-helvetica);
+    font-size: var(--th-p-fs);
+    font-weight: 700;
+    /* line-height: 30.96px; */
+}
+
+.explore-text h3 {
+    font-family: var(--font-helvetica);
+    font-weight: 700;
+}
+
+.explore-text p {
+    font-size: var(--th-link-fs);
+    font-weight: 300;
+}
+
+.explore-list {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: var(--th-link-fs);
+}
+
+.explore-btn .th-btn {
+    width: 100%;
+    padding: 15px 0 !important;
+    text-align: center;
+}
+
+/* ================= Explore Our Packages Ends */
+/* Our Projects Start ================= */
+.our-projects {
+    padding: 50px 0;
+}
+
+/* ================= Our Projects Ends */
+
+/* Testimonial Start ================= */
+.testimonial {
+    padding: 50px 0;
+}
+
+.tes-box {
+    position: relative;
+    padding: 50px 0px;
+    width: 10% !important;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.testimonial-container {
+    display: flex;
+    border: 1px solid var(--th-color-2);
+    transition: all 0.5s;
+}
+
+.test-head {
+    width: 100%;
+    transform: rotate(-180deg);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    padding: 50px 10px;
+    background-color: var(--th-color-3);
+    border-left: 1px solid var(--th-color-Gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*transition: all .5s;*/
+}
+
+.test-logo {
+    width: 100%;
+    max-width: 200px;
+}
+
+.test-logo img {
+    width: 100%;
+}
+
+.tes-box.open {
+    width: 70% !important;
+}
+
+
+.tes-box.open .test-head {
+    opacity: 0;
+    visibility: hidden;
+    user-select: none;
+}
+
+.tes-box.close .test-head {
+    border-right: 1px solid var(--th-color-Gray);
+}
+
+.test-head h3 {
+    color: var(--th-color-2);
+    font-family: var(--th-font-2);
+    font-size: var(--th-h3-fs);
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+.tes-box .test-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    min-width: 750px;
+    max-width: 750px;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+.tes-box .test-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    min-width: 750px;
+    max-width: 750px;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+.testimonial.careers .tes-box {
+    width: 20% !important;
+    padding: 30px;
+}
+
+
+.testimonial.careers .tes-box.open {
+    width: 80% !important;
+}
+
+.testimonial.careers .tes-box .test-content {
+    min-width: 750px;
+    max-width: 100%;
+}
+
+.tes-box .test-name {
+    min-width: 80%;
+    padding: 10px 0px;
+}
+
+.tes-box .test-name {
+    max-width: 80%;
+}
+
+.tes-box {
+    width: 60%;
+}
+
+.tes-box .test-p {
+    max-width: 70%;
+    text-align: center;
+}
+
+.test-q {
+    max-width: 70px;
+}
+
+.test-q img {
+    width: 100%;
+}
+
+/* ================= Testimonial Ends */
+
+/* How it works Start ================= */
+.how-it-works {
+    padding: 80px 0;
+    background: url(../image/how-it-works.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--th-color-3);
+}
+
+.how-it-container {
+    position: relative;
+    /* padding-top: 50px; */
+}
+
+.how-it-container .how-it-box {
+    padding: 20px 0px;
+}
+
+.timeline-bar {
+    width: 2px;
+    height: 100%;
+    background-color: var(--th-color-3);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-img {
+    width: 50px;
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.timeline-img img {
+    width: 100%;
+}
+
+.timeline-img:nth-child(1) {
+    top: 7%;
+}
+
+.timeline-img:nth-child(2) {
+    top: 33%;
+}
+
+.timeline-img:nth-child(3) {
+    top: 56%;
+}
+
+.timeline-img:nth-child(4) {
+    top: 82%;
+}
+
+/* ================= How it works Ends */
+
+/* FAQs Start ================= */
+.faqs {
+    padding: 80px 0;
+}
+
+.eb-tab {
+    margin-bottom: 20px;
+}
+
+.ebt-h {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 69%, 1);
+    font-family: var(--font-helvetica);
+    font-size: var(--th-p-fs);
+    font-weight: 700;
+}
+
+.eb-tab.active {
+    background-color: hsla(353, 76%, 52%, 0.07);
+    transition: .5s;
+}
+
+.eb-tab.active .ebt-h {
+    border: none;
+}
+
+.ebt-h p {
+    margin: 0;
+    font-family: var(--font-helvetica);
+    font-size: var(--th-p-fs);
+    font-weight: 700;
+}
+
+.ebt-body p {
+    font-family: var(--font-helvetica);
+    font-size: var(--th-link-fs);
+    /* font-weight: 300; */
+    padding: 0 20px 20px 20px;
+    margin: 0;
+}
+
+/* ================= FAQs Ends */
+
+
+/* Getting Start ================= */
+.getting {
+    padding: 80px 0;
+    background-color: hsla(0, 0%, 29%, 1);
+    position: relative;
+}
+
+.getting h2 {
+    font-family: var(--font-helvetica);
+    font-weight: 700;
+    color: var(--th-color-3);
+}
+
+.getting p {
+    font-family: var(--font-helvetica);
+    font-size: var(--th-link-fs);
+    font-weight: 300;
+    color: rgb(240, 240, 240);
+}
+.getting-img{
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    /* transform: translateY(-117px); */
+}
+/* ================= Getting Ends */
