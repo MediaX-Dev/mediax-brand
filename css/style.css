@@ -548,3 +548,72 @@ p {
     /* transform: translateY(-117px); */
 }
 /* ================= Getting Ends */
+
+
+/* Collaborate Section Start =================  */
+.collaborate {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    /* margin-top: 100px; */
+  }
+  .collaborate-form {
+    border: 0.97px solid #000000 !important;
+    padding: 50px;
+  }
+  .collaborate-form h3 {
+    font-family: var(--font-helvetica);
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  .collaborate-form .form-h{
+    font-size: var(--th-p-fs);
+    font-weight: 400;
+    color: #717171;
+    margin-bottom: 10px;
+  }
+  .collaborate-form .form-control,
+  .collaborate-form .form-select {
+    border-radius: 0px !important;
+    border: none;
+    border-bottom: 0.97px solid #000000 !important;
+    font-family: var(--font-helvetica);
+    font-weight: 400;
+    color: #717171;
+    padding: 10px;
+  }
+  .collaborate-form label {
+    font-family: var(--font-helvetica);
+  font-weight: 400;
+  }
+  .collaborate-form textarea.form-control {
+    border: 0.97px solid #000000 !important;
+  }
+  .form-icon {
+    position: relative;
+  }
+  .form-icon .form-control {
+    padding-left: 27px;
+  }
+  .form-icon i {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #717171;
+  }
+  .collaborate-form button{
+    padding: 10px 40px;
+    font-family: var(--font-helvetica);
+    border: none;
+    background-color: var(--th-color-1);
+    color: var(--th-color-3);
+    border: 1px solid var(--th-color-1);
+    transition: all .5s;
+  }
+  
+  .collaborate-form button:hover{
+    color: var(--th-color-2);
+    background-color: transparent;
+    border: 1px solid var(--th-color-1);
+  }
+  /* ================= Collaborate Section End  */
