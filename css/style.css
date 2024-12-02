@@ -1,7 +1,7 @@
 /* Google Font Start ================= */
 
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('../fonts/fonts.css');
+@import url('../fonts.css');
 
 
 /* ================= Google Font Ends */
@@ -31,6 +31,7 @@ html {
 
 body {
     overflow-x: hidden !important;
+    background-color: #F0F0F0;
 }
 
 a {
@@ -185,7 +186,7 @@ p {
 /* Choose Start ================= */
 .choose {
     padding: 80px 0;
-    background: url(../image/choose.png);
+    background: url(https://cdn.shopify.com/s/files/1/0640/2628/0017/files/choose.png?v=1732865925);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -418,7 +419,7 @@ p {
 /* How it works Start ================= */
 .how-it-works {
     padding: 80px 0;
-    background: url(../image/how-it-works.png);
+    background: url(https://cdn.shopify.com/s/files/1/0640/2628/0017/files/how-it-works.png?v=1732865945);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
